@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+}
+
+.sidebar{
+    flex: 0.14;
+}
+
+.Main{
+    flex: .86;
+}
+
+.footer{
+    justify-content: end;
+}

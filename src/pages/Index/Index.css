@@ -1,0 +1,83 @@
+.greeting{
+    display: flex;
+    justify-content: space-between;
+}
+.customerrating{
+    display: flex;
+    padding: 20px;
+    padding-left: 20px;
+}
+.customerrating span{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+}
+
+.customerrating span span{
+    flex-direction: row;
+}
+
+.welcome{
+    margin-left: 20px;
+}
+
+.Index{
+    background-color: #faf7f7;
+}
+
+.totalorders{
+    object-fit: cover;
+    width: 24rem;
+    border-radius: 10px;
+    color: white;
+    background-image:linear-gradient(270deg,#0db2de 0,#005bea)!important;
+}
+.orders{
+    margin-left: 1rem;
+}
+.orders h6{
+    font-size: 15;
+    width: max-content;
+}
+.comp{
+    font-size: 12 !important;
+    width: max-content;
+}
+
+.arrow{
+    display: flex;
+   margin-left: 9rem;
+   margin-top: 3rem;
+}
+
+.total{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.totalorders2{
+    object-fit: cover;
+    width: 24rem;
+    border-radius: 10px;
+    color: white;
+    background-image:linear-gradient(45deg,#f93a5a,#f7778c)!important;
+}
+
+.totalorders3{
+    object-fit: cover;
+    width: 24rem;
+    border-radius: 10px;
+    color: white;
+    background-image:linear-gradient(270deg,#48d6a8 0,#029666)!important;
+}
+
+.totalorders4{
+    object-fit: cover;
+    width: 24rem;
+    border-radius: 10px;
+    color: white;
+    background-image:linear-gradient(270deg,#efa65f,#f76a2d)!important;
+}
