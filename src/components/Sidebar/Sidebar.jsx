@@ -44,13 +44,13 @@ const Sidebar = (props) => {
         <h6>Main</h6>
         <span>
           <DashboardIcon/>
-          <p><Link to="/" className='index'>Index</Link></p>
+          <p><Link to="/" className='menux'>Index</Link></p>
         </span>
 
         <h6>General</h6>
         <span>
         <SentimentSatisfiedAltIcon/>
-        <p><Link to="/icons" className='index'>Icons</Link></p>
+        <p><Link to="/icons" className='menux'>Icons</Link></p>
         </span>
         <span>
         <InsertChartIcon/>
