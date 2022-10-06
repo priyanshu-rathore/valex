@@ -37,7 +37,7 @@ const BarChart = () => {
             x: {
               grid: {
                 display: false,
-                maxBarThickness: 10
+                maxBarThickness: 1
               }
             },
             y: {
@@ -59,21 +59,21 @@ const BarChart = () => {
                 label:'success',
                 data: labels.map(()=> Math.floor(Math.random() * 120)),
                 backgroundColor: "blue",
-                maxBarThickness:'10',
+                maxBarThickness:'5',
                 maintainAspectRatio: false,
              },
              {
                 label:'pending',
                 data: labels.map(()=> Math.floor(Math.random() * 120)),
                 backgroundColor: "#ee335e",
-                maxBarThickness:'10',
+                maxBarThickness:'5',
                 maintainAspectRatio: false,
              },
              {
                 label:'failed',
                 data: labels.map(()=> Math.floor(Math.random() * 120)),
                 backgroundColor: "#fbbc0b",
-                maxBarThickness:'10',
+                maxBarThickness:'5',
                 maintainAspectRatio: false,
              },
              
