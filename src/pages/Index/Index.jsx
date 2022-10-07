@@ -289,7 +289,7 @@ const Index = () => {
                 </div>
            
             
-                <div className="totalsales">
+                <div className="totalsales mb-2">
                     <div className="box">
                         <div className="icon"> <NoteAltOutlined className='icons'/> </div>
                         <div className="innerbox">
@@ -390,7 +390,68 @@ const Index = () => {
                 <div className="price"><h4>$1,671</h4></div>
                </div>
             </div>
-            <div className="yourmostrecent"></div>
+            <div className="yourmostrecent">
+                <h4>YOUR MOST RECENT EARNINGS</h4>
+                <p>This is your most recent earnings for today's date.</p>
+                <table>
+  <tr>
+    <th>DATE</th>
+    <th>SALES COUNT</th>
+    <th>EARNINGS</th>
+    <th>TAXWITHELD</th>
+  </tr>
+  <tr>
+    <td>05 Dec 2019</td>
+    <td>34</td>
+    <td>$658.20</td>
+    <td>-$45.10</td>
+  </tr>
+  <tr>
+    <td>06 Dec 2019</td>
+    <td>26</td>
+    <td>$453.25</td>
+    <td>-$15.02</td>
+  </tr>
+  <tr>
+    <td>06 Dec 2019</td>
+    <td>34</td>
+    <td>$653.12</td>
+    <td>-$13.45</td>
+  </tr>
+  <tr>
+    <td>08 Dec 2019</td>
+    <td>45</td>
+    <td>$546.47</td>
+    <td>-$24.22</td>
+  </tr>
+  <tr>
+    <td>09 Dec 2019</td>
+    <td>31</td>
+    <td>$425.72	</td>
+    <td>-$25.01</td>
+  </tr>
+  <tr>
+    <td>09 Dec 2019</td>
+    <td>31</td>
+    <td>$425.72	</td>
+    <td>-$25.01</td>
+  </tr>
+  <tr>
+    <td>09 Dec 2019</td>
+    <td>31</td>
+    <td>$425.72	</td>
+    <td>-$25.01</td>
+  </tr>
+  <tr>
+    <td>09 Dec 2019</td>
+    <td>31</td>
+    <td>$425.72	</td>
+    <td>-$25.01</td>
+  </tr>
+ 
+ 
+</table>
+            </div>
         </div>
     </div>
   )
