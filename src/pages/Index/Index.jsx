@@ -12,6 +12,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import { NoteAltOutlined, RemoveRedEyeOutlined } from '@mui/icons-material';
+import Flag from "./Flag"
 import ReactApexChart from 'react-apexcharts';
 
 const Index = () => {
@@ -341,6 +342,55 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="ytc">
+            <div className="yourtopcon">
+               <h4>YOUR TOP COUNTRIES</h4>
+               <p>Sales performance revenue based by country</p>
+               <div className="flagbox">
+                <div className="flag">
+                    <img src={Flag[0]} alt="" />
+                    <p>United States</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+               <div className="flagbox">
+                <div className="flag ">
+                    <img src={Flag[1]} alt="" />
+                    <p>Germany</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+               <div className="flagbox">
+                <div className="flag">
+                    <img src={Flag[2]} alt="" />
+                    <p>France</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+               <div className="flagbox">
+                <div className="flag">
+                    <img src={Flag[3]} alt="" />
+                    <p>Italy</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+               <div className="flagbox">
+                <div className="flag">
+                    <img src={Flag[4]} alt="" />
+                    <p>Russia</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+               <div className="flagbox">
+                <div className="flag">
+                    <img src={Flag[5]} alt="" />
+                    <p>Spain</p>
+                </div>
+                <div className="price"><h4>$1,671</h4></div>
+               </div>
+            </div>
+            <div className="yourmostrecent"></div>
         </div>
     </div>
   )
